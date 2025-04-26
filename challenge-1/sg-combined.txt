@@ -1,0 +1,2 @@
+sg_id = "sg-08fda4213d4807acb"
+sg_rule_id = "sgr-017990202647014cf"

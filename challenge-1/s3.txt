@@ -1,0 +1,4 @@
+s3_buckets = [
+  "welcomed-ferret-bucket-1",
+  "welcomed-ferret-bucket-2",
+]
