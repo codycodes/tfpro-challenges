@@ -1,14 +1,22 @@
 
 variable "environement" {
-  type = number
+  type    = number
+  default = 1
 }
 
 variable "s3_buckets" {
-    type = list(strings)
+  type    = list(string)
+  default = ["bucket-1", "bucket-2"]
 }
 
-variable "s3_base_object" {}
+variable "s3_base_object" {
+  default = "myobject"
+}
 
-variable "org-name" {}
+variable "org-name" {
+  default = "my-org"
+}
 
-variable "region" {}
+variable "region" {
+  default = "us-east-1"
+}
